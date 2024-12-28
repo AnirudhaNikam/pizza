@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage {
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #f8b400;
+    padding: 1rem 0;
+    /* color: white; */
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background:  no-repeat center center/cover;
+    /* color: white; */
+    padding: 4rem 1rem;
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f8b400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  
+  .menu-preview {
+    padding: 4rem 2rem;
+  }
+
+  .Welcome{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .Welcome1{
+    text-shadow: 0.5% rgb(68, 52, 83);
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  img{
+    display: flex;
+    object-fit: cover;
+    border-radius: 10px;
+
+    /* opacity: 0.7; */
+
+  }
+  
+  .menu-item {
+    background-color: #f5f2f2;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+
+
+  /* For A Card */
+
+
+  .card{
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(252, 229, 252);
+  }
+
+
+  .AboutHead{
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+padding-left: 2rem;
+padding-bottom: 1rem;    
+  }
